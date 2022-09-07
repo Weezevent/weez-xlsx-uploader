@@ -5,7 +5,7 @@ from openpyxl import load_workbook
 from .api import WeezeventApi, Tarifs, Forms
 
 
-WEEZ_BULK_SIZE = 1000
+WEEZ_BULK_SIZE = 500
 
 
 class XslxUploader:
